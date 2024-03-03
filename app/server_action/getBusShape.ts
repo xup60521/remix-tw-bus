@@ -1,6 +1,6 @@
 'use server'
 
-import {type BusGeo } from "type/busType"
+import {type BusGeo } from "app/type/busType"
 import { get_access_token } from "./get_access_token"
 
 export async function getBusShape(bus: string, city: string) {

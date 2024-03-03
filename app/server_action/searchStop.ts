@@ -1,6 +1,6 @@
 'use server'
 
-import {type BusStopSearchResult } from "type/busType"
+import {type BusStopSearchResult } from "app/type/busType"
 import { get_access_token } from "./get_access_token"
 
 export async function searchStop(q:string, city: string) {

@@ -1,6 +1,6 @@
 'use server'
 
-import {type BusList } from "type/busType"
+import {type BusList } from "app/type/busType"
 import { get_access_token } from "./get_access_token"
 
 export async function getAllBus(city?: string) {

@@ -73,7 +73,7 @@ export default function DrawerSection({
                                     {index !== 0 && <div className="w-full border-t-[0.05rem] border-slate-100 mx-1" />}
                                     <Link 
                                         key={item.SubRoutes[0].SubRouteName.Zh_tw} 
-                                        to={`/${city}/${item.RouteName.Zh_tw}/0`}
+                                        to={`/${city}/${item.RouteName.Zh_tw}?direction=0`}
                                         onClick={()=>{
                                             setBus(item.RouteName.Zh_tw)
                                             setDirection("0")
